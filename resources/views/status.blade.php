@@ -2,56 +2,51 @@
 @section('konten')
     <div class="container">
         <!-- content area -->
+        {{-- all title use h3 and header class!!! --}}
         <h3 class="header">STATUS PENDAFTARAN</h3>
+
+        {{-- table --}}
         <div class="col-10 table-responsive">
             <table class="table table-bordered">
-                <thead>
+                <thead class="bg-grey">
                     <tr>
-
                         <th scope="col">Nama</th>
                         <th scope="col">Tanggal Pendaftaran</th>
                         <th scope="col">Status</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="bg-white">
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
                     </tr>
                     <tr>
-
                         <td>Mark</td>
                         <td>Otto</td>
                         <td><span class="badge bg-success">Terdaftar</span></td>
