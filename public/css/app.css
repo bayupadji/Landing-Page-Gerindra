@@ -4,11 +4,13 @@
     --sdcolor: #e8e8e8;
 }
 
+
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     background-color: var(--bgcolor);
@@ -25,9 +27,10 @@ body {
 
 } */
 
-.navbar a {
+
+/* .navbar a {
     padding-left: 100px;
-}
+} */
 
 .navbar-text button {
     margin-left: 100px;
@@ -227,7 +230,9 @@ body {
 
 .sidebar {
     background-color: var(--sdcolor) !important;
-    padding-left: 100px !important;
+    padding-left: 50px !important;
+    width: 30%;
+    justify-content: flex-start;
 }
 
 .profile1 p {
@@ -239,6 +244,66 @@ body {
 .cardimg {
     width: 100%;
 }
+
+
+/*  test sidebar*/
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: static !important;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+/* sidebar */
 
 .profilform {
     background: #e5e5e5;
