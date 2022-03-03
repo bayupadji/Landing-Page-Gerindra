@@ -2,7 +2,7 @@
 @section('konten')
     <div class="container">
         <!-- content area -->
-        <h1>STATUS PENDAFTARAN</h1>
+        <h3 class="header">STATUS PENDAFTARAN</h3>
         <div class="col-10 table-responsive">
             <table class="table table-bordered">
                 <thead>
@@ -14,6 +14,42 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
+                    <tr>
+
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><span class="badge bg-success">Terdaftar</span></td>
+                    </tr>
                     <tr>
 
                         <td>Mark</td>

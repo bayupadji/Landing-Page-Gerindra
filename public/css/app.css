@@ -38,6 +38,7 @@ body {
 
 .fot {
     background-color: #212121;
+    width: 100%;
     height: 297px;
     color: white;
 }
@@ -55,15 +56,11 @@ body {
 }
 
 .jalan {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     padding-top: 140px;
 }
 
 .sosmed {
     padding-top: 140px;
-    padding-left: 120px;
 }
 
 .sosmed a {
@@ -249,19 +246,15 @@ body {
 /*  test sidebar*/
 
 .sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
-    position: static !important;
-    height: 100%;
     overflow: auto;
+    padding-top: 2em;
 }
 
 .sidebar a {
-    display: block;
+    display: inline-block;
     color: black;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -270,8 +263,8 @@ body {
     color: white;
 }
 
-.sidebar a:hover:not(.active) {
-    background-color: #555;
+.sidebar span:hover:not(.active) {
+    font-weight: 700;
     color: white;
 }
 
@@ -354,6 +347,18 @@ input::placeholder {
     color: #e4e4e4;
 }
 
+.tomboldaftar {
+    border-radius: 10px;
+    background-color: #db1d1d;
+    color: #e5e5e5;
+    font-weight: 700;
+}
+
+.tomboldaftar:hover {
+    background-color: #a00909;
+    color: #e4e4e4;
+}
+
 
 /* Dokumen */
 
@@ -374,4 +379,12 @@ input::placeholder {
     padding-left: 70px;
     padding-right: 70px;
     border-radius: 20px;
+}
+
+
+/* all header title */
+
+.header {
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
