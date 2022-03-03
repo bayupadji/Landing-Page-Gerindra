@@ -21,11 +21,12 @@ body {
     height: 581px;
 }
 
-
-/* .navbar{
-    width: auto;
-
-} */
+.navbar {
+    box-shadow: 0px 0.1995030641555786px 4.987576484680176px 0px #00000007;
+    box-shadow: 0px 0.6700892448425293px 16.75223159790039px 0px #0000000b;
+    box-shadow: 0px 3px 75px 0px #00000012;
+    background-color: #ffffff;
+}
 
 
 /* .navbar a {
@@ -46,6 +47,8 @@ body {
 .ml {
     margin-right: 125px;
     text-indent: 3rem;
+    text-decoration: none;
+    color: white;
 }
 
 .map {
