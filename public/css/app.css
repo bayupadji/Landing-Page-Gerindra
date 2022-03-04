@@ -178,7 +178,7 @@ body {
 
 .box {
     background: #ffffff;
-    padding: 20px 39px;
+    padding: 20px 40px;
     color: black;
     display: flex;
     align-items: center;
@@ -194,6 +194,7 @@ body {
     justify-content: center;
     align-items: center !important;
     margin-left: 4.5rem;
+    text-decoration: none;
 }
 
 .notif {
@@ -216,7 +217,6 @@ body {
 .btn2 {
     background: green;
     border-radius: 8px;
-    margin-left: 2.4rem;
     align-items: center;
     font-size: 12px;
     text-align: center;

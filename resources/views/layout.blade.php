@@ -32,31 +32,35 @@
     @yield('konten')
     <footer>
         <div class="fot">
-            <div class="row">
-                <div class="jalan col-sm-4">
-                    <a><img src="{{ asset('img/maps.png') }}" alt="">24 Shipley St.Arvada, CO 80003</a>
-                    <br>
-                    <a class="ml"><img src="{{ asset('img/tlp.png') }}" alt="">0999889898</a>
-                </div>
-                <div class="col-sm-4">
-                    <div class="sosmed rounded-social-buttons">
-                        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <p>@Copyright 2022 Gerindra Jateng</p>
+            <div class="container">
+                <div class="row">
+                    <div class="jalan col">
+                        <a><img src="{{ asset('img/maps.png') }}" alt=""> 24 Shipley St.Arvada, CO 80003</a>
+                        <br>
+                        <a class="ml"><img src="{{ asset('img/tlp.png') }}" alt=""> 0999889898</a>
+                    </div>
+                    <div class="col">
+                        <div class="sosmed rounded-social-buttons">
+                            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <p>@Copyright 2022 <b>Gerindra Jateng</b></p>
+                        </div>
+                    </div>
+                    <div class="col"><iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.070532923704!2d110.44651311477337!3d-7.000976394942679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c933d6636c3%3A0xca1c8f002f19bcce!2sKANTOR%20DPD%20GERINDRA%20JATENG!5e0!3m2!1sid!2sid!4v1645706646254!5m2!1sid!2sid"
+                            width="400" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
-                <div class="col-sm-4"><iframe class="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.070532923704!2d110.44651311477337!3d-7.000976394942679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c933d6636c3%3A0xca1c8f002f19bcce!2sKANTOR%20DPD%20GERINDRA%20JATENG!5e0!3m2!1sid!2sid!4v1645706646254!5m2!1sid!2sid"
-                        width="400" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
             </div>
+
         </div>
     </footer>
     <!-- Optional JavaScript; choose one of the two! -->
